@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_start_object_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start object anim"/>
+    <TextView
+        android:id="@+id/tv_anim_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="object Animation 演示"/>
+
+    <Button
+        android:id="@+id/btn_start_second_object_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start second object anim"/>
+
+    <com.baiheng.objectanimatordemo.MyPointView
+        android:id="@+id/my_point_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

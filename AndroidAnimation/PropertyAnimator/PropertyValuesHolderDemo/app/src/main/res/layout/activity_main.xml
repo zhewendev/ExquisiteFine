@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_start_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start anim"/>
+
+    <TextView
+        android:id="@+id/tv_content_1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Animator 演示控件1"/>
+
+    <TextView
+        android:id="@+id/tv_content_2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Animator 演示控件2"/>
+
+    <ImageView
+        android:id="@+id/img_key_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_launcher_foreground"/>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_scale_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="scale animation"/>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:background="#dd5500"
+        android:text="XML实现Scale动画"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/code_tv_content"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:background="#dd5500"
+        android:text="Code实现Scale动画"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/code_set_tv_content"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:background="#dd5500"
+        android:text="Code实现Set动画"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
