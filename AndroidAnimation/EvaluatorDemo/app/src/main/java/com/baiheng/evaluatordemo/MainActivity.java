@@ -27,7 +27,12 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 switch (flag) {
                     case 0:
-                        replaceFragment()
+                        replaceFragment(new ArgbEvaluatorFragment());
+                        button.setText("ArgbEvaluator Fragment");
+                        flag++;
+                        break;
+                    case 1:
+                        replaceFragment();
                 }
             }
         });
